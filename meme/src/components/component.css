@@ -1,0 +1,115 @@
+.home {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+h2 {
+
+    color: black;
+}
+
+.topnav {
+    background-color: #f57542;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.logo {
+    margin-top: 15px;
+    order: 1;
+    font-size: 1.2 rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    background-color: #f57542;
+    color: blanchedalmond;
+    height: 50px;
+
+}
+
+.nav-items {
+    padding-left: 20px;
+    order: 2;
+    margin-top: 15px;
+    background-color: #f57542;
+}
+
+.nav-link {
+    display: flex-end;
+}
+
+button {
+    background-color: #f57542;
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+}
+
+
+
+/*-----------Memes.js ------------------*/
+.memes-container {
+    margin: 50px;
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: row;
+}
+
+.memes-data {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    flex-basis: 33.33%;
+}
+
+.edit-button {
+    margin-top: 20px;
+}
+
+/*-----------EditImage----------*/
+.popup-container {
+    position: fixed;
+    top: 20%;
+    right: 20%;
+    height: 500px;
+    background-color: #f2f2f2;
+    overflow-y: scroll;
+
+}
+
+.e-button {
+    margin-top: 20px;
+}
+
+
+/*---------About------------*/
+.about-section {
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+
+}
+
+.about-section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.about-section p {
+    font-size: 16px;
+    color: #555;
+}
+
+.about-section ul {
+    margin: 10px 0;
+    padding: 0 20px;
+    list-style-type: disc;
+}
+
+.about-section ul li {
+    margin-bottom: 5px;
+}
